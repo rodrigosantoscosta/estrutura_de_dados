@@ -119,3 +119,14 @@ notas = [7,7]
 
 teste7 = Aluno("Entoni", notas)
 print(f"Aluno: {teste7.nome}\nMédia: {(teste7.calcular_media()):.2f}")
+
+
+# 9. Crie uma classe chamada “Triangulo” com atributos “lado1”, “lado2” e “lado3”. Implemente um
+# método chamado “calcular_perimetro” que retorna o perímetro do triângulo.
+
+class Triangulo:
+    def __init__(self, lado1, lado2, lado3):
+        self.lado1 = lado1
+        self.lado2 = lado2
+        self.lado3 = lado3
+        
