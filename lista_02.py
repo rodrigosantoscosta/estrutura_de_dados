@@ -115,7 +115,7 @@ class Aluno:
     def calcular_media(self):
         return sum(self.notas) / len(self.notas)
     
-notas = [7,7]
+notas = [7,7,8]
 
 teste7 = Aluno("Entoni", notas)
 print(f"Aluno: {teste7.nome}\nMédia: {(teste7.calcular_media()):.2f}")
@@ -129,4 +129,20 @@ class Triangulo:
         self.lado1 = lado1
         self.lado2 = lado2
         self.lado3 = lado3
-        
+
+# 10. Crie uma classe chamada “Funcionario” com atributos “nome”, “salario” e “cargo”. Implemente um
+# método chamado “aumentar_salario” que recebe um valor percentual de aumento e atualiza o salário
+# do funcionário.
+
+class Funcionario:
+    def __init__(self, nome, salario, cargo):
+        self.nome = nome
+        self.salario = salario
+        self.cargo = cargo
+    
+    def aumentar_salario(self, aumento):
+        self.salario = self.salario  + (self.salario * (aumento/100))
+
+teste9 = Funcionario("Pedro", 475, "Engenheiro de Software")
+teste9.aumentar_salario(10)
+print(f"Salário após aumento: {teste9.salario}")
