@@ -18,6 +18,22 @@
 # 8. Quantos dias da semana tive com o maior tempo de descanso?
 # 9. Qual a percentagem por semana em relação ao total por mês?
 
+
+# Respostas:
+# # 1. Dia com maior descanso: Qua
+# # 2. Dia com menor descanso: Ter
+# # 3. Semana com maior descanso: S1
+# # 4. Semana com menor descanso: S2
+# # 5. Menor valor de descanso: 4
+# # 6. Maior valor de descanso: 9
+# # 7. Quantidade de dias com menor valor: 1
+# # 8. Quantidade de dias com maior valor: 1
+# # 9. Porcentagem de descanso por semana:
+# # S1: 26.92%
+# # S2: 23.85%
+# # S3: 24.62%
+# # S4: 24.62%
+
 dados = [
     [8, 6, 7, 8, 6],  
     [5, 5, 6, 7, 8],  
