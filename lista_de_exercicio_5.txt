@@ -1,0 +1,17 @@
+1. 
+a) 10 nós.
+b) 3.
+c) H.
+d) A, C, L, M e N. 
+e) H, B, F e E.
+f) A, C, J e E.
+g) F e H.
+h) J, E, L, M e N.
+
+2.
+a. D B A C F E G
+b. A C B E G F D
+c. A C  B D E F G
+
+3
+a. Primeira arvore : 3 + 5 - 4 in order, post order 3 5 4 * +,  3 + 5 * 4
